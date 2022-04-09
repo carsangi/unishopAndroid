@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragmentos.FragmentLogo">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/naranja_oscuro"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/texto"
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:text="UniShop"
+            android:textColor="@color/white"
+            android:textSize="60dp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-black"
+            android:layout_marginVertical="75dp"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+</LinearLayout>
